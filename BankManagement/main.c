@@ -38,10 +38,14 @@ void withdraw(); // To withdraw cash from A/C
 void fund_transfer();// To transfer cash from one account to another
 void ac_info();// To view informations about the A/C and account holder
 void transaction();// To view all the trasactions of an A/C
+void add_user1() // To add a new user
+void add_user2() // To add a new user
+void add_user3() // To add a new user
+	void add_user4() // To add a new user
 
 
 
-char date[13],ttime[10]; // These are global variables to store system date and time
+char date[13],ttime[10] // These are global variables to store system date and time
 
 FILE *fp,*fp1,*tfp; // File pointers
 
